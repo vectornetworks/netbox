@@ -1,5 +1,13 @@
 # NetBox v2.10
 
+## v2.10.5 (FUTURE)
+
+### Bug Fixes
+
+* [#5315](https://github.com/netbox-community/netbox/issues/5315) - Fix site unassignment from VLAN when using "None" option
+
+---
+
 ## v2.10.4 (2021-01-26)
 
 ### Enhancements
