@@ -28,7 +28,7 @@ Here's an example device export template that will generate a simple Nagios conf
 {% for device in queryset %}{% if device.status and device.primary_ip %}define host{
         use                     generic-switch
         host_name               {{ device.name }}
-        address                 {{ device.primary_ip.address.ip }}
+        address                 {{ device.primary_ip.address }}
 }
 {% endif %}{% endfor %}
 ```
